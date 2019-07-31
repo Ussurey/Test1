@@ -12,8 +12,8 @@ public class Test1 {
 	}
 	
 	public static void test2() {
-//		int x=100;
-//		System.out.println(x);
-//		System.out.println(x*10);
+		int x=100;
+		System.out.println(x);
+		System.out.println(x*10);
 	}
 }
