@@ -9,6 +9,9 @@ public class Test1 {
 		System.out.println("Hi all!");
 		test2();
 		
+		Class1 class1obj = new Class1("New object", 1);
+		class1obj.hello();
+		
 	}
 	
 	public static void test2() {
