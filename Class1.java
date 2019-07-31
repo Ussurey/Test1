@@ -10,6 +10,6 @@ public class Class1 {
 	}
 	
 	public void hello() {
-		System.out.println(name+"("+id+"): Hello!");
+		System.out.println(name+"("+id+"): Hello, World!");
 	}
 }
