@@ -17,6 +17,5 @@ public class Class1 {
 	// This empty method should be edited or deleted later
 	private void emptyMethod() {
 		
-		
 	}
 }
