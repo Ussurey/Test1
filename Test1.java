@@ -14,6 +14,7 @@ public class Test1 {
 		System.out.println("");
 		
 		test3();
+		test4();
 		
 	}
 	
@@ -34,5 +35,13 @@ public class Test1 {
 			Class1 class1obj1 = arrArrList.get(i);
 			System.out.println(class1obj1.toString());
 		}
+	}
+	public static void test4() {
+		ArrayList<Integer> arrList = new ArrayList<>();
+		for (int i=0;i<10;i++) {
+			arrList.add(i);
+		}
+		Class1 class1obj2 = new Class1("Name", 33, arrList);
+		System.out.println(class1obj2.toString());
 	}
 }

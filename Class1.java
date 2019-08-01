@@ -11,6 +11,13 @@ public class Class1 {
 		this.name = name;
 	}
 	
+	public Class1(String name, int id, ArrayList<Integer> arrList){
+		this.id = id;
+		this.name = name;
+		this.arrList = new ArrayList<>();
+		this.arrList.addAll(arrList);
+	}
+	
 	public void hello() {
 		System.out.println(name+"("+id+"): Hello, World!");
 	}
